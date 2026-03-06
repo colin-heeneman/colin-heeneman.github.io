@@ -1,0 +1,50 @@
+---
+pagetitle: "Colin Heeneman"
+page-layout: full
+---
+
+::: hero
+<h1 class="hero-name">
+
+Colin Heeneman
+
+</h1>
+
+<p class="hero-title">
+
+**Researcher / Quantitative & Qualitative Policy Analyst**
+
+</p>
+
+<p class="hero-tagline">
+
+Blending data and egalitarian values to analyze public problems.
+
+</p>
+
+::: quick-links
+[Email Me](mailto:colinheen@outlook.com){.btn .btn-primary} [GitHub](https://github.com/colin-heeneman){.btn .btn-secondary}
+:::
+:::
+
+## Featured Projects
+
+::: project-cards
+::: project-card
+<h3><a href="projects/ada-parc.html">ADA‑PARC Project</a></h3>
+
+<p>An interactive Shiny and Tableau-based platform that visualizes quality‑of‑life outcomes for people with disabilities across U.S. geographies.</p>
+:::
+
+::: project-card
+<h3><a href="projects/mood-disorders.html">Correlates of Mood Disorders</a></h3>
+
+<p>Uses CDC health survey data to model how modifiable behaviors and non‑modifiable demographics predict depression and anxiety among adults, revealing actionable public health targets.</p>
+:::
+
+::: project-card
+<h3><a href="projects/wic.html">WIC Program Evaluation</a></h3>
+
+<p>Applies a regression discontinuity design to synthetic data to estimate the impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on birth weight outcomes.</p>
+:::
+:::

@@ -1,0 +1,27 @@
+---
+title: "WIC Program Evaluation"
+---
+
+## Project Overview
+
+This project evaluates the causal impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on infant birth‑weight outcomes using a Regression Discontinuity Design (RDD). WIC, established in 1972 and now serving nearly 53% of all infants born in the United States, provides low‑income families with access to nutritious food, nutrition education, and healthcare referrals. Despite its scale, rigorous causal identification of its effects on birth outcomes remains an important methodological challenge.
+
+The analysis uses synthetically generated data that mirrors the income‑eligibility threshold structure of WIC, exploiting the discontinuity at the program cutoff to credibly estimate program effects. The report covers program theory, a logic model, causal hypotheses, identification strategy, and robustness checks — demonstrating how quasi‑experimental methods can generate policy‑relevant evidence even in the absence of experimental data.
+
+**Methods:** Regression Discontinuity Design (RDD) with synthetic data; robustness checks including bandwidth sensitivity and placebo tests.
+
+**Collaborators:** Colin Heeneman, Emily Frost, Samantha Sepulveda.
+
+**Course:** Program Evaluation — University of Illinois Chicago (Dr. Siciliano, December 2024).
+
+---
+
+## Full Report
+
+<div class="pdf-embed">
+<iframe src="wic-report.pdf" width="100%" height="850px" style="border: 1px solid #e0e0e0; border-radius: 4px;"></iframe>
+</div>
+
+<p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+If the PDF does not render above, <a href="wic-report.pdf" target="_blank">open it directly</a>.
+</p>

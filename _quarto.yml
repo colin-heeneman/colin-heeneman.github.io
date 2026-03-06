@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: .
+  render:
+    - index.qmd
+    - about.qmd
+    - projects.qmd
+    - projects/ada-parc.qmd
+    - projects/mood-disorders.qmd
+    - projects/wic.qmd
+
+website:
+  title: "Colin Heeneman"
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+    right:
+      - href: https://github.com/colin-heeneman
+        text: GitHub
+      - href: mailto:colinheen@outlook.com
+        text: Email
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual

@@ -1,0 +1,28 @@
+---
+title: "Projects"
+page-layout: full
+---
+
+# Portfolio Projects
+
+Each project listed below links to a dedicated page with an overview, methodology, and the full report.
+
+::: project-cards
+::: project-card
+<h3><a href="projects/ada-parc.html">ADA‑PARC Project</a></h3>
+
+<p>A descriptive analysis of quality‑of‑life disparities between disabled and non‑disabled populations across U.S. geographies, paired with an interactive Shiny website and Tableau dashboard.</p>
+:::
+
+::: project-card
+<h3><a href="projects/mood-disorders.html">Correlates of Mood Disorders</a></h3>
+
+<p>Statistical analysis of CDC survey data identifying modifiable and non‑modifiable predictors of depression and anxiety, with implications for public health policy.</p>
+:::
+
+::: project-card
+<h3><a href="projects/wic.html">WIC Program Evaluation</a></h3>
+
+<p>A regression discontinuity design evaluation using synthetic data to estimate the causal impact of WIC on infant birth‑weight outcomes.</p>
+:::
+:::

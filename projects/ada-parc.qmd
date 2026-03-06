@@ -1,0 +1,31 @@
+---
+title: "ADA‑PARC Project"
+---
+
+## Project Overview
+
+This report is a core deliverable of the ADA‑PARC (Americans With Disabilities Act - Participation Action Research Consortium) project, a national research effort led by Dr. Joy Hammel at the University of Illinois Chicago. Using 2023 American Community Survey (ACS 5‑year) data, the report produces a comprehensive descriptive analysis of quality‑of‑life disparities between people with and without disabilities across four thematic domains: demographics, community living, community participation, and work & economics.
+
+Spanning national, regional, state, and city geographies, the analysis draws on ADA‑PARC scorecards and geographic breakdowns to surface where disabled populations face the greatest gaps in insurance access, employment, educational attainment, transportation, and more. The companion interactive tool, built in R Shiny and Tableau, allows users to explore these findings dynamically by geography and disability type.
+
+**Methods:** Descriptive statistics and index scoring from ACS 5‑year microdata (2023), with an equity lens centering the experiences of disabled populations across race, sex, and age.
+
+**Role:** Sole analyst and author; dashboard development in R Shiny and Tableau.
+
+[Explore the ADA‑PARC Interactive Tool →](https://adaparc.shinyapps.io/ADA_PARC/#section-home){.btn .btn-primary target="_blank"}
+
+------------------------------------------------------------------------
+
+## Full Report
+
+::: pdf-embed
+<iframe src="ada-parc-report.pdf" width="100%" height="850px">
+
+</iframe>
+:::
+
+<p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+
+If the PDF does not render above, <a href="ada-parc-report.pdf" target="_blank">open it directly</a>.
+
+</p>
