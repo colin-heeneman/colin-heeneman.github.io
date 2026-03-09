@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "projects/wic.html",
+    "href": "projects/wic.html",
+    "title": "WIC Program Evaluation",
+    "section": "",
+    "text": "This project evaluates the causal impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on infant birth‑weight outcomes using a Regression Discontinuity Design (RDD). WIC, established in 1972 and now serving nearly 53% of all infants born in the United States, provides low‑income families with access to nutritious food, nutrition education, and healthcare referrals. Despite its scale, rigorous causal identification of its effects on birth outcomes remains an important methodological challenge.\nThe analysis uses synthetically generated data that mirrors the income‑eligibility threshold structure of WIC, exploiting the discontinuity at the program cutoff to credibly estimate program effects. The report covers program theory, a logic model, causal hypotheses, identification strategy, and robustness checks, demonstrating how quasi‑experimental methods can generate policy‑relevant evidence even in the absence of experimental data.\nMethods: Regression Discontinuity Design (RDD) with synthetic data; robustness checks including bandwidth sensitivity and placebo tests.\nCollaborators: Colin Heeneman, Emily Frost, Samantha Sepulveda."
+  },
+  {
+    "objectID": "projects/wic.html#project-overview",
+    "href": "projects/wic.html#project-overview",
+    "title": "WIC Program Evaluation",
+    "section": "",
+    "text": "This project evaluates the causal impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on infant birth‑weight outcomes using a Regression Discontinuity Design (RDD). WIC, established in 1972 and now serving nearly 53% of all infants born in the United States, provides low‑income families with access to nutritious food, nutrition education, and healthcare referrals. Despite its scale, rigorous causal identification of its effects on birth outcomes remains an important methodological challenge.\nThe analysis uses synthetically generated data that mirrors the income‑eligibility threshold structure of WIC, exploiting the discontinuity at the program cutoff to credibly estimate program effects. The report covers program theory, a logic model, causal hypotheses, identification strategy, and robustness checks, demonstrating how quasi‑experimental methods can generate policy‑relevant evidence even in the absence of experimental data.\nMethods: Regression Discontinuity Design (RDD) with synthetic data; robustness checks including bandwidth sensitivity and placebo tests.\nCollaborators: Colin Heeneman, Emily Frost, Samantha Sepulveda."
+  },
+  {
+    "objectID": "projects/wic.html#full-report",
+    "href": "projects/wic.html#full-report",
+    "title": "WIC Program Evaluation",
+    "section": "Full Report",
+    "text": "Full Report\n\n\n\n\n\nIf the PDF does not render above, open it directly."
+  },
+  {
+    "objectID": "projects/ada-parc.html",
+    "href": "projects/ada-parc.html",
+    "title": "ADA‑PARC Project",
+    "section": "",
+    "text": "This report is a core deliverable of the ADA‑PARC (Americans With Disabilities Act - Participation Action Research Consortium) project, a national research effort led by Dr. Joy Hammel at the University of Illinois Chicago. Using 2023 American Community Survey (ACS 5‑year) data, the report produces a comprehensive descriptive analysis of quality of life disparities between people with and without disabilities across four thematic domains: demographics, community living, community participation, and work & economics.\nSpanning national, regional, state, and city geographies, the analysis draws on ADA‑PARC scorecards and geographic breakdowns to surface where disabled populations face the greatest gaps in insurance access, employment, educational attainment, transportation, and more. The companion interactive tool, built in R Shiny and Tableau, allows users to explore these findings dynamically by geography and disability type.\nMethods: Descriptive statistics and index scoring from ACS 5‑year estimates (2023), with an equity lens centering the experiences of disabled populations across race, sex, and age.\nRole: Sole analyst and author; dashboard development in R Shiny and Tableau.\nExplore the ADA‑PARC Interactive Tool →"
+  },
+  {
+    "objectID": "projects/ada-parc.html#project-overview",
+    "href": "projects/ada-parc.html#project-overview",
+    "title": "ADA‑PARC Project",
+    "section": "",
+    "text": "This report is a core deliverable of the ADA‑PARC (Americans With Disabilities Act - Participation Action Research Consortium) project, a national research effort led by Dr. Joy Hammel at the University of Illinois Chicago. Using 2023 American Community Survey (ACS 5‑year) data, the report produces a comprehensive descriptive analysis of quality of life disparities between people with and without disabilities across four thematic domains: demographics, community living, community participation, and work & economics.\nSpanning national, regional, state, and city geographies, the analysis draws on ADA‑PARC scorecards and geographic breakdowns to surface where disabled populations face the greatest gaps in insurance access, employment, educational attainment, transportation, and more. The companion interactive tool, built in R Shiny and Tableau, allows users to explore these findings dynamically by geography and disability type.\nMethods: Descriptive statistics and index scoring from ACS 5‑year estimates (2023), with an equity lens centering the experiences of disabled populations across race, sex, and age.\nRole: Sole analyst and author; dashboard development in R Shiny and Tableau.\nExplore the ADA‑PARC Interactive Tool →"
+  },
+  {
+    "objectID": "projects/ada-parc.html#full-report",
+    "href": "projects/ada-parc.html#full-report",
+    "title": "ADA‑PARC Project",
+    "section": "Full Report",
+    "text": "Full Report\n\n\n\n\n\nIf the PDF does not render above, open it directly."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Portfolio Projects\nEach project listed below links to a dedicated page with an overview, methodology, and the full report.\n\n\n\nADA‑PARC Project\n\n\nA descriptive analysis of quality‑of‑life disparities between disabled and non‑disabled populations across U.S. geographies, paired with an interactive Shiny website and Tableau dashboard.\n\n\n\n\nCorrelates of Mood Disorders\n\n\nStatistical analysis of CDC survey data identifying modifiable and non‑modifiable predictors of depression and anxiety, with implications for public health policy.\n\n\n\n\nWIC Program Evaluation\n\n\nA regression discontinuity design evaluation using synthetic data to estimate the causal impact of WIC on infant birth‑weight outcomes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nColin Heeneman\n",
+    "section": "",
+    "text": "Researcher / Quantitative & Qualitative Policy Analyst\n\n\nBlending data and egalitarian values to analyze public problems.\n\n\nEmail Me GitHub"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "\nColin Heeneman\n",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\n\nADA‑PARC Project\n\n\nAn interactive Shiny and Tableau-based platform that visualizes quality‑of‑life outcomes for people with disabilities across U.S. geographies.\n\n\n\n\nCorrelates of Mood Disorders\n\n\nUses CDC health survey data to model how modifiable behaviors and non‑modifiable demographics predict depression and anxiety among adults, revealing actionable public health targets.\n\n\n\n\nWIC Program Evaluation\n\n\nApplies a regression discontinuity design to synthetic data to estimate the impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on birth weight outcomes."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Fundamentally, my work is about blending analysis and egalitarian values in order to understand public problems, and offer powerful solutions. In practice, this centers on rigorous, reproducible analyses, which made accessible to key stakeholders and the public alike serve as a critical precursor to decision making. Such commitment to policy research and novel knowledge creation is built upon my will to build a more just society conducive to well-being for all. My pursuit of these ends is a process guided chiefly by the following values:\n\nEmpathy\nEmpiricism\nCommunity\nSustainability"
+  },
+  {
+    "objectID": "about.html#value-statement",
+    "href": "about.html#value-statement",
+    "title": "About",
+    "section": "",
+    "text": "Fundamentally, my work is about blending analysis and egalitarian values in order to understand public problems, and offer powerful solutions. In practice, this centers on rigorous, reproducible analyses, which made accessible to key stakeholders and the public alike serve as a critical precursor to decision making. Such commitment to policy research and novel knowledge creation is built upon my will to build a more just society conducive to well-being for all. My pursuit of these ends is a process guided chiefly by the following values:\n\nEmpathy\nEmpiricism\nCommunity\nSustainability"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "About Me",
+    "text": "About Me\nI am a researcher trained in policy analysis focused on the intersection of data, public health and social equity. I have recently completed a Master of Public Policy at the University of Illinois Chicago, specializing in public health policy, where I maintained a GPA of 3.92 and have sharpened skills in the domains of communication and analysis. Prior to my graduate studies, I obtained a Bachelor of Arts in Political Science from the University of Illinois Urbana‑Champaign with a concentration in public policy and democratic institutions.\n\nProfessional Experience\nI work as a research assistant at the Nathalie P. Voorhees Center for Neighborhood and Community Improvement. There, my main project is ADA‑PARC—a national research effort that examines quality of life disparities for people with disabilities organized into three main categories: Community Living, Community Participation, Work Economic. My work within this project has involved building a complex U.S. Census data pipeline, a website to display results using R-Shiny, developing interactive visualization dashboards using Tableau, and producing an accessible report using Quarto/LaTex. While at the Voorhees Center I have also contributed to the City of Chicago’s Point-In-Time Homeless Count (PIT). Prior to this, I served as a research intern at the Jefferson Educational Society in Erie, Pennsylvania, where I produced publications and assisted with research projects, including an analysis fo the human rights abuses prior to the 2022 FIFA World Cup in Qatar.\n\n\nProjects & Interests\nMy portfolio reflects interests in public health, socioeconomic equality and program evaluation, but my interests are numerous. Recent projects include modeling the correlates of mood disorders and predictors of chronic disease using CDC data, analyzing rent burden across the Chicago metropolitan area, examining support for wealth redistribution using the GSS, and evaluating the potential impact of the Special Supplemental Nutrition Program for Women, Infants and Children (WIC) using synthetic data.\n\n\nSkills & Leadership\nI bring a combination of policy analysis, quantitative and qualitative research methods, econometrics, and strong written and verbal communication skills. My technical toolkit is most developed within R-Studio/Quarto, Git Hub, Tableau, and Shiny for modeling, visualization and reproducible reporting. Beyond research, I have experience leading and organizing mental health advocacy efforts as a former president of Active Minds at the University of Illinois Urbana‑Champaign.\nThrough this portfolio I aim to share a glimpse into my technical abilities and soft skills which make me an asset to any organization interested in problem solving. Thank you for being here, and feel free to explore my projects and reach out via email if you would like to connect."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV\n\n\n\n\n\n\nIf the PDF does not render above, open it directly."
+  },
+  {
+    "objectID": "projects/mood-disorders.html",
+    "href": "projects/mood-disorders.html",
+    "title": "Correlates of Mood Disorders",
+    "section": "",
+    "text": "This project investigates the behavioral and demographic predictors of mood disorders — specifically Generalized Anxiety Disorder (GAD) and Major Depressive Disorder (MDD) — using health survey data from the Centers for Disease Control and Prevention (CDC). Mood disorders represent the most prevalent category of serious mental illness in the United States, yet the evidence base for targeted prevention policy remains underdeveloped.\nThe analysis applies statistical modeling to distinguish between modifiable risk factors (such as physical activity, sleep, and social connection) and non‑modifiable characteristics (such as age, sex, and race/ethnicity), with the goal of identifying actionable public‑health targets. Findings are framed within a policy context, with recommendations for how evidence on mood disorder correlates can inform prevention programming and resource allocation at the community level.\nMethods: Multivariate regression modeling on CDC survey data. Variables include behavioral health indicators and demographic controls.\nCourse: Independent Study — University of Illinois Chicago, College of Urban Planning and Public Affairs (overseen by Dr. Allyson Holbrook)."
+  },
+  {
+    "objectID": "projects/mood-disorders.html#project-overview",
+    "href": "projects/mood-disorders.html#project-overview",
+    "title": "Correlates of Mood Disorders",
+    "section": "",
+    "text": "This project investigates the behavioral and demographic predictors of mood disorders — specifically Generalized Anxiety Disorder (GAD) and Major Depressive Disorder (MDD) — using health survey data from the Centers for Disease Control and Prevention (CDC). Mood disorders represent the most prevalent category of serious mental illness in the United States, yet the evidence base for targeted prevention policy remains underdeveloped.\nThe analysis applies statistical modeling to distinguish between modifiable risk factors (such as physical activity, sleep, and social connection) and non‑modifiable characteristics (such as age, sex, and race/ethnicity), with the goal of identifying actionable public‑health targets. Findings are framed within a policy context, with recommendations for how evidence on mood disorder correlates can inform prevention programming and resource allocation at the community level.\nMethods: Multivariate regression modeling on CDC survey data. Variables include behavioral health indicators and demographic controls.\nCourse: Independent Study — University of Illinois Chicago, College of Urban Planning and Public Affairs (overseen by Dr. Allyson Holbrook)."
+  },
+  {
+    "objectID": "projects/mood-disorders.html#full-report",
+    "href": "projects/mood-disorders.html#full-report",
+    "title": "Correlates of Mood Disorders",
+    "section": "Full Report",
+    "text": "Full Report\n\n\n\n\n\nIf the PDF does not render above, open it directly."
+  }
+]
