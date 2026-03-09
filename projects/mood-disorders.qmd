@@ -4,22 +4,26 @@ title: "Correlates of Mood Disorders"
 
 ## Project Overview
 
-This project investigates the behavioral and demographic predictors of mood disorders — specifically Generalized Anxiety Disorder (GAD) and Major Depressive Disorder (MDD) — using health survey data from the Centers for Disease Control and Prevention (CDC). Mood disorders represent the most prevalent category of serious mental illness in the United States, yet the evidence base for targeted prevention policy remains underdeveloped.
+This project investigates the behavioral and demographic predictors of mood disorders --- specifically Generalized Anxiety Disorder (GAD) and Major Depressive Disorder (MDD) --- using health survey data from the Centers for Disease Control and Prevention (CDC). Mood disorders represent the most prevalent category of serious mental illness in the United States, yet the evidence base for targeted prevention policy remains underdeveloped.
 
 The analysis applies statistical modeling to distinguish between modifiable risk factors (such as physical activity, sleep, and social connection) and non‑modifiable characteristics (such as age, sex, and race/ethnicity), with the goal of identifying actionable public‑health targets. Findings are framed within a policy context, with recommendations for how evidence on mood disorder correlates can inform prevention programming and resource allocation at the community level.
 
-**Methods:** Multivariate regression modeling on CDC survey microdata; variables include behavioral health indicators and sociodemographic controls.
+**Methods:** Multivariate regression modeling on CDC survey data. Variables include behavioral health indicators and demographic controls.
 
-**Course:** Quantitative Research Methods — University of Illinois Chicago, College of Urban Planning and Public Affairs (Dr. Allyson Holbrook, April 2024).
+**Course:** Independent Study --- University of Illinois Chicago, College of Urban Planning and Public Affairs (overseen by Dr. Allyson Holbrook).
 
----
+------------------------------------------------------------------------
 
 ## Full Report
 
-<div class="pdf-embed">
-<iframe src="mood-disorders-report.pdf" width="100%" height="850px" style="border: 1px solid #e0e0e0; border-radius: 4px;"></iframe>
-</div>
+::: pdf-embed
+<iframe src="mood-disorders-report.pdf" width="100%" height="850px" style="border: 1px solid #e0e0e0; border-radius: 4px;">
+
+</iframe>
+:::
 
 <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+
 If the PDF does not render above, <a href="mood-disorders-report.pdf" target="_blank">open it directly</a>.
+
 </p>
