@@ -5,6 +5,7 @@ project:
     - index.qmd
     - about.qmd
     - projects.qmd
+    - cv.qmd
     - projects/ada-parc.qmd
     - projects/mood-disorders.qmd
     - projects/wic.qmd
@@ -20,6 +21,8 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: cv.qmd
+        text: CV
     right:
       - href: https://github.com/colin-heeneman
         text: GitHub

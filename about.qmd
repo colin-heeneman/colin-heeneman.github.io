@@ -4,7 +4,7 @@ title: "About"
 
 ## Value Statement
 
-At it's core, my work is about blending data and egalitarian values to understand public problems, and find solutions conducive to well-being for all. My work is guided by a belief that rigorous, reproducible analysis, made accessible to decision-making stakeholders and the public alike is critical for building a more just and healthy society. Such commitment to policy research and novel knowledge creation is built upon a framework of transparency, rigor, and a will to build a society that maximizes human agency, liberty and well-being.
+Fundamentally, my work is about blending data and egalitarian values to understand public problems, and find solutions conducive to well-being for all. My work is guided by a belief that rigorous, reproducible analysis, made accessible to decision-making stakeholders and the public alike is critical for building a more just and healthy society. Such commitment to policy research and novel knowledge creation is built upon a framework of transparency, rigor, and a will to build a society that maximizes human agency, liberty and well-being.
 
 ------------------------------------------------------------------------
 
