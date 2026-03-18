@@ -67,7 +67,42 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Download CV\n\n\n\n\n\n\nIf the PDF does not render above, open it directly."
+    "text": "Download PDF"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Illinois Chicago Chicago, IL\n\n\nMaster of Public Policy Dec 2022 – Dec 2024\n\n\nSpecialization in Public Health Policy · GPA: 3.93/4.0 Relevant Coursework: Data Analysis, Policy Analysis, Program Design and Evaluation, Public Administration\n\n\nUniversity of Illinois Urbana-Champaign Urbana, IL\n\n\nBachelor of Political Science Aug 2018 – May 2022\n\n\nConcentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0 Relevant Coursework: Intro to Public Policy, Political Theory, Public Policy Development"
+  },
+  {
+    "objectID": "cv.html#work-experience",
+    "href": "cv.html#work-experience",
+    "title": "CV",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nNathalie P. Voorhees Center for Neighborhood and Community Improvement Chicago, IL\n\n\nResearch Assistant June 2023 – Present\n\n\n\nSupport the ADA-PARC project — a national research effort examining quality-of-life disparities for the disabled population across all 50 states and hundreds of geographic units.\n\n\nProduced Tableau dashboard to visualize outcome disparities between disabled and non-disabled populations nationwide.\n\n\nBuilt interactive website for geographic data display using R Shiny.\n\n\nDeveloped a Descriptive Analysis Report based on 2023 ACS 5-year estimate outcomes.\n\n\n\n\nSupport the City of Chicago 2025 Point-in-Time (PIT) Count — a federally mandated, citywide survey identifying 7,452 people experiencing homelessness, co-led by the Voorhees Center and DFSS.\n\n\nContributed to data cleaning, analysis, and production of visualizations for the published 2025 PIT Count & Survey Report.\n\n\n\n\n\nJefferson Educational Society Erie, PA\n\n\nResearch Intern May 2022 – November 2022\n\n\n\nProduced and edited publications while assisting with research projects and programming for Erie’s local political think tank.\n\n\nPublished research analysis on Human Rights in Qatar — jeserie.org/uploads/Henneman 2022.pdf\n\n\nAssisted the Jefferson team in facilitating the nationally recognized Global Summit."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "CV",
+    "section": "Skills",
+    "text": "Skills\n\nPolicy Analysis: Memo Writing, Evaluation Quantitative & Qualitative Research Methods Econometrics Written & Verbal Communications Stakeholder Engagement"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "CV",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nSoftware Proficiency: R Studio, Quarto, LaTeX, Tableau, R Shiny, Git, Notion, Obsidian, Adobe Acrobat, Microsoft 365, Apple Ecosystem"
+  },
+  {
+    "objectID": "cv.html#additional",
+    "href": "cv.html#additional",
+    "title": "CV",
+    "section": "Additional",
+    "text": "Additional\n\nPresident of Active Minds UIUC (2021–2022): Led student advocacy organization for mental health awareness; lobbied the counseling center to expand resources for students, succeeding in printing the suicide prevention hotline on all student I.D. cards."
   },
   {
     "objectID": "about.html",
