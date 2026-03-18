@@ -9,6 +9,7 @@ project:
     - projects/ada-parc.qmd
     - projects/mood-disorders.qmd
     - projects/wic.qmd
+    - research-statement.qmd
 
 website:
   title: "Colin Heeneman"
@@ -21,6 +22,8 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: research-statement.qmd
+        text: Research
       - href: cv.qmd
         text: CV
     right:
