@@ -9,6 +9,7 @@ project:
     - projects/ada-parc.qmd
     - projects/mood-disorders.qmd
     - projects/wic.qmd
+    - projects/medicaid-expansion.qmd
     - research-statement.qmd
 
 website:

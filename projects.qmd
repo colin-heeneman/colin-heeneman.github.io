@@ -25,4 +25,10 @@ Each project listed below links to a dedicated page with an overview, methodolog
 
 <p>A regression discontinuity design evaluation using synthetic data to estimate the causal impact of WIC on infant birth‑weight outcomes.</p>
 :::
+
+::: project-card
+<h3><a href="projects/medicaid-expansion.html">Medicaid Expansion & Health Coverage</a></h3>
+
+<p>A staggered difference-in-differences analysis using the Callaway-Sant'Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states.</p>
+:::
 :::
