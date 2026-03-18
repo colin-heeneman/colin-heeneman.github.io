@@ -4,13 +4,13 @@ title: "WIC Program Evaluation"
 
 ## Project Overview
 
-This project evaluates the causal impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on infant birth‑weight outcomes using a Regression Discontinuity Design (RDD). WIC, established in 1972 and now serving nearly 53% of all infants born in the United States, provides low‑income families with access to nutritious food, nutrition education, and healthcare referrals. Despite its scale, rigorous causal identification of its effects on birth outcomes remains an important methodological challenge.
+The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) has served low-income mothers, infants, and young children since 1972, providing access to nutritious food, nutrition education, and healthcare referrals. As of 2024, WIC benefits nearly 53% of all infants born in the United States. Despite its scale, credible causal identification of its effects on birth outcomes remains methodologically challenging due to the absence of randomized assignment. This project demonstrates how quasi-experimental methods can generate policy-relevant evidence under realistic data constraints by applying a Regression Discontinuity Design (RDD) to the program's income-eligibility threshold, exploiting the discontinuity at the cutoff to identify the effect of WIC participation on infant birth weight.
 
-The analysis uses synthetically generated data that mirrors the income‑eligibility threshold structure of WIC, exploiting the discontinuity at the program cutoff to credibly estimate program effects. The report covers program theory, a logic model, causal hypotheses, identification strategy, and robustness checks, demonstrating how quasi‑experimental methods can generate policy‑relevant evidence even in the absence of experimental data.
+**Key Findings:** Using both optimistic and pessimistic synthetic data scenarios, the RDD analysis finds statistically significant treatment effects in both specifications. The pessimistic scenario produces an estimated effect of −498.5 grams (95% CI: −550.9 to −446.1; z = −18.6, p \< 0.001) and the optimistic scenario yields −661.9 grams (95% CI: −839.4 to −484.6; z = −7.3, p \< 0.001), with results stable across bandwidth sensitivity checks. The consistency across scenarios and robustness checks demonstrates the analytical framework's reliability as a model for applied program evaluation. As the primary goal of the project was methodological demonstration using synthetic data, the findings are interpreted as a proof-of-concept for the RDD approach rather than as causal estimates of WIC's real-world effect.
 
-**Methods:** Regression Discontinuity Design (RDD) with synthetic data; robustness checks including bandwidth sensitivity and placebo tests.
+**Methods:** Sharp Regression Discontinuity Design exploiting WIC's income-eligibility threshold (185% FPL); optimistic and pessimistic synthetic data scenarios; local polynomial regression estimation; robustness checks including bandwidth sensitivity and placebo threshold tests. Implemented in R.
 
-**Collaborators:** Colin Heeneman, Emily Frost, Samantha Sepulveda.
+**Collaborators:** Colin Heeneman, Emily Frost, Samantha Sepulveda. Course: PA 528 Dr. Siciliano, University of Illinois Chicago.
 
 ------------------------------------------------------------------------
 
