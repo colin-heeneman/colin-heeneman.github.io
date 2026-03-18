@@ -125,7 +125,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
+  <li><a href="#additional" id="toc-additional" class="nav-link" data-scroll-target="#additional">Additional</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -149,16 +159,191 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="margin-bottom: 1rem;">
-<p><a href="files/Heeneman_Colin_CV.pdf" target="_blank" class="btn btn-primary">Download CV</a></p>
+<style>
+  .cv-download {
+    margin-bottom: 2rem;
+  }
+  .cv-section {
+    margin-bottom: 2rem;
+  }
+  .cv-section h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  .cv-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.1rem;
+  }
+  .cv-entry .cv-left {
+    font-weight: 700;
+    font-size: 0.97rem;
+  }
+  .cv-entry .cv-right {
+    font-size: 0.9rem;
+    color: #444;
+    white-space: nowrap;
+  }
+  .cv-role {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.15rem;
+    margin-bottom: 0.4rem;
+  }
+  .cv-role .cv-title {
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+  .cv-role .cv-date {
+    font-size: 0.9rem;
+    color: #444;
+    white-space: nowrap;
+  }
+  .cv-detail {
+    font-size: 0.92rem;
+    color: #333;
+    margin: 0.1rem 0 0.5rem 0;
+    line-height: 1.5;
+  }
+  ul.cv-bullets {
+    margin: 0.3rem 0 0.5rem 0;
+    padding-left: 1.25rem;
+    font-size: 0.93rem;
+  }
+  ul.cv-bullets li {
+    margin-bottom: 0.35rem;
+    line-height: 1.5;
+  }
+  ul.cv-sub {
+    list-style-type: none;
+    padding-left: 1rem;
+    margin: 0.25rem 0 0.25rem 0;
+  }
+  ul.cv-sub li::before {
+    content: "– ";
+    color: #555;
+  }
+  ul.cv-sub li {
+    margin-bottom: 0.2rem;
+    line-height: 1.5;
+    font-size: 0.92rem;
+  }
+  .cv-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.3rem 1.5rem;
+    font-size: 0.93rem;
+  }
+  .cv-skills-grid span::before {
+    content: "• ";
+    color: #555;
+  }
+</style>
+<div class="cv-download">
+<p><a href="files/Heeneman_Colin_CV.pdf" target="_blank" class="btn btn-primary">Download PDF</a></p>
 </div>
-<div class="pdf-embed">
-<iframe src="files/Heeneman_Colin_CV.pdf" width="100%" height="950px">
-</iframe>
+<hr>
+<section id="education" class="level2 cv-section">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<div class="cv-entry">
+<p><span class="cv-left">University of Illinois Chicago</span> <span class="cv-right">Chicago, IL</span></p>
 </div>
-<p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-</p><p>If the PDF does not render above, <a href="files/Heeneman_Colin_CV.pdf" target="_blank">open it directly</a>.</p>
-<p></p>
+<div class="cv-role">
+<p><span class="cv-title">Master of Public Policy</span> <span class="cv-date">Dec 2022 – Dec 2024</span></p>
+</div>
+<div class="cv-detail">
+<p>Specialization in Public Health Policy · GPA: 3.93/4.0 <em>Relevant Coursework:</em> Data Analysis, Policy Analysis, Program Design and Evaluation, Public Administration</p>
+</div>
+<div class="cv-entry">
+<p><span class="cv-left">University of Illinois Urbana-Champaign</span> <span class="cv-right">Urbana, IL</span></p>
+</div>
+<div class="cv-role">
+<p><span class="cv-title">Bachelor of Political Science</span> <span class="cv-date">Aug 2018 – May 2022</span></p>
+</div>
+<div class="cv-detail">
+<p>Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0 <em>Relevant Coursework:</em> Intro to Public Policy, Political Theory, Public Policy Development</p>
+</div>
+</section>
+<section id="work-experience" class="level2 cv-section">
+<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
+<div class="cv-entry">
+<p><span class="cv-left">Nathalie P. Voorhees Center for Neighborhood and Community Improvement</span> <span class="cv-right">Chicago, IL</span></p>
+</div>
+<div class="cv-role">
+<p><span class="cv-title">Research Assistant</span> <span class="cv-date">June 2023 – Present</span></p>
+</div>
+<ul class="cv-bullets">
+<li>
+Support the ADA-PARC project — a national research effort examining quality-of-life disparities for the disabled population across all 50 states and hundreds of geographic units.
+<ul class="cv-sub">
+<li>
+Produced Tableau dashboard to visualize outcome disparities between disabled and non-disabled populations nationwide.
+</li>
+<li>
+Built interactive website for geographic data display using R Shiny.
+</li>
+<li>
+Developed a Descriptive Analysis Report based on 2023 ACS 5-year estimate outcomes.
+</li>
+</ul>
+</li>
+<li>
+Support the City of Chicago 2025 Point-in-Time (PIT) Count — a federally mandated, citywide survey identifying 7,452 people experiencing homelessness, co-led by the Voorhees Center and DFSS.
+<ul class="cv-sub">
+<li>
+Contributed to data cleaning, analysis, and production of visualizations for the published 2025 PIT Count &amp; Survey Report.
+</li>
+</ul>
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-left">Jefferson Educational Society</span> <span class="cv-right">Erie, PA</span></p>
+</div>
+<div class="cv-role">
+<p><span class="cv-title">Research Intern</span> <span class="cv-date">May 2022 – November 2022</span></p>
+</div>
+<ul class="cv-bullets">
+<li>
+Produced and edited publications while assisting with research projects and programming for Erie’s local political think tank.
+<ul class="cv-sub">
+<li>
+Published research analysis on Human Rights in Qatar — <a href="https://jeserie.org/uploads/Henneman 2022.pdf" target="_blank">jeserie.org/uploads/Henneman 2022.pdf</a>
+</li>
+<li>
+Assisted the Jefferson team in facilitating the nationally recognized Global Summit.
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="skills" class="level2 cv-section">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<div class="cv-skills-grid">
+<p><span>Policy Analysis: Memo Writing, Evaluation</span> <span>Quantitative &amp; Qualitative Research Methods</span> <span>Econometrics</span> <span>Written &amp; Verbal Communications</span> <span>Stakeholder Engagement</span></p>
+</div>
+</section>
+<section id="technical-skills" class="level2 cv-section">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
+<div class="cv-detail">
+<p><strong>Software Proficiency:</strong> R Studio, Quarto, LaTeX, Tableau, R Shiny, Git, Notion, Obsidian, Adobe Acrobat, Microsoft 365, Apple Ecosystem</p>
+</div>
+</section>
+<section id="additional" class="level2 cv-section">
+<h2 class="anchored" data-anchor-id="additional">Additional</h2>
+<div class="cv-detail">
+<p><strong>President of Active Minds UIUC (2021–2022):</strong> Led student advocacy organization for mental health awareness; lobbied the counseling center to expand resources for students, succeeding in printing the suicide prevention hotline on all student I.D. cards.</p>
+</div>
+</section>
 
 
 

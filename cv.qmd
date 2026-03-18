@@ -2,18 +2,205 @@
 title: "CV"
 ---
 
-::: {style="margin-bottom: 1rem;"}
-<a href="files/Heeneman_Colin_CV.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+```{=html}
+<style>
+  .cv-download {
+    margin-bottom: 2rem;
+  }
+  .cv-section {
+    margin-bottom: 2rem;
+  }
+  .cv-section h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  .cv-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.1rem;
+  }
+  .cv-entry .cv-left {
+    font-weight: 700;
+    font-size: 0.97rem;
+  }
+  .cv-entry .cv-right {
+    font-size: 0.9rem;
+    color: #444;
+    white-space: nowrap;
+  }
+  .cv-role {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.15rem;
+    margin-bottom: 0.4rem;
+  }
+  .cv-role .cv-title {
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+  .cv-role .cv-date {
+    font-size: 0.9rem;
+    color: #444;
+    white-space: nowrap;
+  }
+  .cv-detail {
+    font-size: 0.92rem;
+    color: #333;
+    margin: 0.1rem 0 0.5rem 0;
+    line-height: 1.5;
+  }
+  ul.cv-bullets {
+    margin: 0.3rem 0 0.5rem 0;
+    padding-left: 1.25rem;
+    font-size: 0.93rem;
+  }
+  ul.cv-bullets li {
+    margin-bottom: 0.35rem;
+    line-height: 1.5;
+  }
+  ul.cv-sub {
+    list-style-type: none;
+    padding-left: 1rem;
+    margin: 0.25rem 0 0.25rem 0;
+  }
+  ul.cv-sub li::before {
+    content: "– ";
+    color: #555;
+  }
+  ul.cv-sub li {
+    margin-bottom: 0.2rem;
+    line-height: 1.5;
+    font-size: 0.92rem;
+  }
+  .cv-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.3rem 1.5rem;
+    font-size: 0.93rem;
+  }
+  .cv-skills-grid span::before {
+    content: "• ";
+    color: #555;
+  }
+</style>
+```
+
+::: {.cv-download}
+<a href="files/Heeneman_Colin_CV.pdf" target="_blank" class="btn btn-primary">Download PDF</a>
 :::
 
-::: pdf-embed
-<iframe src="files/Heeneman_Colin_CV.pdf" width="100%" height="950px">
+---
 
-</iframe>
+::: {.cv-section}
+## Education
+
+::: {.cv-entry}
+[University of Illinois Chicago]{.cv-left}
+[Chicago, IL]{.cv-right}
+:::
+::: {.cv-role}
+[Master of Public Policy]{.cv-title}
+[Dec 2022 – Dec 2024]{.cv-date}
+:::
+::: {.cv-detail}
+Specialization in Public Health Policy · GPA: 3.93/4.0
+*Relevant Coursework:* Data Analysis, Policy Analysis, Program Design and Evaluation, Public Administration
 :::
 
-<p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+::: {.cv-entry}
+[University of Illinois Urbana-Champaign]{.cv-left}
+[Urbana, IL]{.cv-right}
+:::
+::: {.cv-role}
+[Bachelor of Political Science]{.cv-title}
+[Aug 2018 – May 2022]{.cv-date}
+:::
+::: {.cv-detail}
+Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0
+*Relevant Coursework:* Intro to Public Policy, Political Theory, Public Policy Development
+:::
+:::
 
-If the PDF does not render above, <a href="files/Heeneman_Colin_CV.pdf" target="_blank">open it directly</a>.
+::: {.cv-section}
+## Work Experience
 
-</p>
+::: {.cv-entry}
+[Nathalie P. Voorhees Center for Neighborhood and Community Improvement]{.cv-left}
+[Chicago, IL]{.cv-right}
+:::
+::: {.cv-role}
+[Research Assistant]{.cv-title}
+[June 2023 – Present]{.cv-date}
+:::
+
+<ul class="cv-bullets">
+  <li>Support the ADA-PARC project — a national research effort examining quality-of-life disparities for the disabled population across all 50 states and hundreds of geographic units.
+    <ul class="cv-sub">
+      <li>Produced Tableau dashboard to visualize outcome disparities between disabled and non-disabled populations nationwide.</li>
+      <li>Built interactive website for geographic data display using R Shiny.</li>
+      <li>Developed a Descriptive Analysis Report based on 2023 ACS 5-year estimate outcomes.</li>
+    </ul>
+  </li>
+  <li>Support the City of Chicago 2025 Point-in-Time (PIT) Count — a federally mandated, citywide survey identifying 7,452 people experiencing homelessness, co-led by the Voorhees Center and DFSS.
+    <ul class="cv-sub">
+      <li>Contributed to data cleaning, analysis, and production of visualizations for the published 2025 PIT Count & Survey Report.</li>
+    </ul>
+  </li>
+</ul>
+
+::: {.cv-entry}
+[Jefferson Educational Society]{.cv-left}
+[Erie, PA]{.cv-right}
+:::
+::: {.cv-role}
+[Research Intern]{.cv-title}
+[May 2022 – November 2022]{.cv-date}
+:::
+
+<ul class="cv-bullets">
+  <li>Produced and edited publications while assisting with research projects and programming for Erie's local political think tank.
+    <ul class="cv-sub">
+      <li>Published research analysis on Human Rights in Qatar — <a href="https://jeserie.org/uploads/Henneman 2022.pdf" target="_blank">jeserie.org/uploads/Henneman 2022.pdf</a></li>
+      <li>Assisted the Jefferson team in facilitating the nationally recognized Global Summit.</li>
+    </ul>
+  </li>
+</ul>
+:::
+
+::: {.cv-section}
+## Skills
+
+::: {.cv-skills-grid}
+<span>Policy Analysis: Memo Writing, Evaluation</span>
+<span>Quantitative & Qualitative Research Methods</span>
+<span>Econometrics</span>
+<span>Written & Verbal Communications</span>
+<span>Stakeholder Engagement</span>
+:::
+:::
+
+::: {.cv-section}
+## Technical Skills
+
+::: {.cv-detail}
+**Software Proficiency:** R Studio, Quarto, LaTeX, Tableau, R Shiny, Git, Notion, Obsidian, Adobe Acrobat, Microsoft 365, Apple Ecosystem
+:::
+:::
+
+::: {.cv-section}
+## Additional
+
+::: {.cv-detail}
+**President of Active Minds UIUC (2021–2022):** Led student advocacy organization for mental health awareness; lobbied the counseling center to expand resources for students, succeeding in printing the suicide prevention hotline on all student I.D. cards.
+:::
+:::
