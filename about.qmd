@@ -2,32 +2,14 @@
 title: "About"
 ---
 
-## **About Me**
+# *Why I'm Committed To This Work*
 
-I am a researcher trained in policy analysis focused on the intersection of data, public health and social equity. I have recently completed a Master of Public Policy at the University of Illinois Chicago, specializing in public health policy, where I maintained a GPA of 3.92 and have sharpened skills in the domains of communication and analysis. Prior to my graduate studies, I obtained a Bachelor of Arts in Political Science from the University of Illinois Urbana‑Champaign with a concentration in public policy and democratic institutions.
+Empathy has always been a central force guiding my personal, academic, and professional life. For as long as I can remember, I've been deeply saddened and perplexed by the continuation of such egregious socioeconomic inequality. My mother had premonitions that justice-oriented work was on the horizon when I would do such things as saving half my sandwich for someone seeking donation at Union Station. But such acts felt less in the spirit of heroism than basic humility. It feels only fitting, now, to make that kid proud by dedicating my professional life to understanding and combating the structures which have given rise to our current reality, one in which we are poised to mint our first trillionaire before eliminating abject poverty.
 
-### **Professional Experience**
+However ironically, precisely because such a state of affairs is a policy choice rather than dystopian prophecy, there exists the hope of its amelioration. We must simply open our eyes, and summon our wits, our optimism, our courage, to steadfastly push for a more just society. A society which truly takes seriously its capacity to foster or destroy the conditions which give each individual the opportunity to flourish. My commitment to this worldview sharpened during my undergraduate studies in political science at the University of Illinois Urbana-Champaign. Here, was the genesis of my ability to link my innate compassion with the tools of rigorous analysis. Such an approach guided my advocacy as part of Active Minds, a student mental health organization for which I served as Co-President my senior year. A role of profound meaning, it deepened my understanding of public service and affirmed my will to to develop systems which minimize human suffering.
 
-I work as a research assistant at the Nathalie P. Voorhees Center for Neighborhood and Community Improvement. There, my main project is ADA‑PARC---a national research effort that examines quality of life disparities for people with disabilities organized into three main categories: Community Living, Community Participation, Work Economic. My work within this project has involved building a complex U.S. Census data pipeline, a website to display results using R-Shiny, developing interactive visualization dashboards using Tableau, and producing an accessible report using Quarto/LaTex. While at the Voorhees Center I have also contributed to the City of Chicago\'s Point-In-Time Homeless Count (PIT). Prior to this, I served as a research intern at the Jefferson Educational Society in Erie, Pennsylvania, where I produced publications and assisted with research projects, including an analysis fo the human rights abuses prior to the 2022 FIFA World Cup in Qatar.
+After graduating, I wanted to delve deeper into the policy world and expand my knowledge-base in systems which support the well-being of communities. Hence, the next two years in my academic journey were spent pursuing an MPP at The University of Illinois Chicago with a specialization in Public Health. During my coursework here, I developed an appreciation for the framework of upstream intervention. An empathic society makes great effort to prevent problems rather than just manage their symptoms. Another highlight of my graduate experience was the mentorship of Dr. Allyson Holbrook, under whom I completed an independent study using National Health Interview Survey (NHIS) data to explore mental health outcomes. More than a project of quantitative analysis, it was a chance to examine how structural factors and the social determinants of health influence well-being at an individual and communal level.
 
-### **Projects & Interests**
+Another domain in which I've grown professionally and technically is at the Voorhees Center for Neighborhood and Community Improvement. While here, my main project has been development of the ADA-PARC website, a resource for the disability community and advocates that hosts raw data and analysis related to quality of life outcomes within the disabled community. Strengthening my technical foundation in statistical software and applied data visualization, this work has also brought me closer to a community which experiences severe inequities.
 
-My portfolio reflects interests in public health, socioeconomic equality and program evaluation, but my interests are numerous. Recent projects include modeling the correlates of mood disorders and predictors of chronic disease using CDC data, analyzing rent burden across the Chicago metropolitan area, examining support for wealth redistribution using the GSS, and evaluating the potential impact of the Special Supplemental Nutrition Program for Women, Infants and Children (WIC) using synthetic data.
-
-### **Skills & Leadership**
-
-I bring a combination of policy analysis, quantitative and qualitative research methods, econometrics, and strong written and verbal communication skills. My technical toolkit is most developed within R-Studio/Quarto, Git Hub, Tableau, and Shiny for modeling, visualization and reproducible reporting. Beyond research, I have experience leading and organizing mental health advocacy efforts as a former president of Active Minds at the University of Illinois Urbana‑Champaign.
-
-Through this portfolio I aim to share a glimpse into my technical abilities and soft skills which make me an asset to any organization interested in problem solving. Thank you for being here, and feel free to explore my projects and reach out via email if you would like to connect.
-
-### **Value Statement**
-
-Fundamentally, my work is about blending analysis and egalitarian values in order to understand public problems, and offer powerful solutions. In practice, this centers on rigorous, reproducible analyses, which made accessible to key stakeholders and the public alike serve as a critical precursor to decision making. Such commitment to policy research and novel knowledge creation is built upon my will to build a more just society conducive to well-being for all. My pursuit of these ends is a process guided chiefly by the following values:
-
--   Empathy
-
--   Empiricism
-
--   Community
-
--   Sustainability
+We have, collectively, chosen greed over empathy. No choice poisons the well of humanity more deeply. For such extreme inequality not only plunders the spirit of those who face capitalistic-condemnation, it creates a class-chasm that eventually, rips us apart. What we need is a renewal. Of our social contract, yes, but also of our commitment to building systems which realize the human right to self-actualization. My continued exploration of the interface between built socioeconomic environments and individual human development, reflected in the projects throughout this portfolio, is oriented towards expanding our understanding of the pathways to such a society.
