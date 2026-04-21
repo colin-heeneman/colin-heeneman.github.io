@@ -1,0 +1,263 @@
+/* ============================================================
+   Portfolio — Colin Heeneman
+   Theme: Maroon & Gold / EB Garamond
+   ============================================================ */
+
+/* Google Fonts: EB Garamond */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+/* ── Design tokens ───────────────────────────────────────── */
+:root {
+  --primary:        #800020;   /* maroon */
+  --primary-dark:   #600018;
+  --primary-light:  #f5e8eb;
+  --gold:           #b8880a;   /* gold accent */
+  --gold-light:     #fdf6e3;
+  --text-dark:      #1a1a1a;
+  --text-mid:       #4a4a4a;
+  --text-light:     #888888;
+  --bg-page:        #ffffff;
+  --bg-subtle:      #faf9f7;
+  --border:         #e4ddd8;
+  --radius:         6px;
+  --shadow:         0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+/* ── Base ────────────────────────────────────────────────── */
+body {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  background-color: var(--bg-page);
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  color: var(--text-dark);
+  letter-spacing: 0.01em;
+}
+
+/* Suppress Quarto's auto-generated page title on home */
+.quarto-title h1.title,
+h1.title {
+  display: none;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* ── Navbar ──────────────────────────────────────────────── */
+.navbar {
+  border-bottom: 3px solid var(--primary) !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-nav .nav-link {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-dark) !important;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius);
+  transition: background 0.15s, color 0.15s;
+  /* Reset any Bootstrap active background */
+  background-color: transparent !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary) !important;
+  background-color: var(--primary-light) !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--primary) !important;
+  background-color: transparent !important;
+  font-weight: 600;
+}
+
+/* ── Hero ────────────────────────────────────────────────── */
+.hero {
+  padding: 4rem 2rem 3rem;
+  text-align: center;
+  background: linear-gradient(150deg, var(--bg-subtle) 0%, #f7f0f2 100%);
+  border-radius: var(--radius);
+  border-top: 4px solid var(--primary);
+  margin-bottom: 2.5rem;
+}
+
+.hero-name {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+
+.hero-tagline {
+  font-size: 1.1rem;
+  color: var(--text-mid);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.hero-description {
+  font-size: 1.05rem;
+  color: var(--text-mid);
+  max-width: 680px;
+  margin: 0.75rem auto 0;
+  line-height: 1.75;
+}
+
+.quick-links {
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* ── Buttons ─────────────────────────────────────────────── */
+.btn {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1.4rem;
+  border-radius: var(--radius);
+  transition: background 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(128, 0, 32, 0.2);
+}
+.btn-primary:hover {
+  background-color: var(--primary-dark) !important;
+  border-color: var(--primary-dark) !important;
+  box-shadow: 0 4px 10px rgba(128, 0, 32, 0.3);
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  border: 2px solid var(--primary) !important;
+  color: var(--primary) !important;
+}
+.btn-secondary:hover {
+  background-color: var(--primary-light) !important;
+  color: var(--primary-dark) !important;
+  text-decoration: none;
+}
+
+/* ── Project Cards ───────────────────────────────────────── */
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.project-card {
+  flex: 1 1 calc(33% - 1.25rem);
+  max-width: 360px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.project-card h3 a {
+  color: var(--text-dark);
+}
+.project-card h3 a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.project-card p {
+  color: var(--text-mid);
+  font-size: 1rem;
+  margin-bottom: 0;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .hero-name {
+    font-size: 2.4rem;
+  }
+}
+
+/* ── Section headings ────────────────────────────────────── */
+h2 {
+  border-bottom: 2px solid var(--gold-light);
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+  color: var(--primary);
+}
+
+h3 {
+  color: var(--text-dark);
+}
+
+/* Gold accent rule used under page titles on project pages */
+.quarto-title-block h1 {
+  color: var(--text-dark);
+}
+
+.quarto-title-block::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--gold);
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+  border-radius: 2px;
+}
+
+/* ── PDF embed ───────────────────────────────────────────── */
+.pdf-embed iframe {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
