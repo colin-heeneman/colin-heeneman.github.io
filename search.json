@@ -81,14 +81,14 @@
     "href": "projects/ada-parc.html#full-report",
     "title": "ADA‑PARC Project",
     "section": "Full Report",
-    "text": "Full Report\n\n\n\n\n\nIf the PDF does not render above, open it directly."
+    "text": "Full Report\nRough draft, final draft still in development\n\n\n\n\n\nIf the PDF does not render above, open it directly."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Portfolio Projects\nEach project listed below links to a dedicated page with an overview, methodology, and the full report.\n\n\n\nADA‑PARC Project\n\n\nA descriptive analysis of quality‑of‑life disparities between disabled and non‑disabled populations across U.S. geographies, paired with an interactive Shiny website and Tableau dashboard.\n\n\n\n\nCorrelates of Mood Disorders\n\n\nStatistical analysis of CDC survey data identifying modifiable and non‑modifiable predictors of depression and anxiety, with implications for public health policy.\n\n\n\n\nWIC Program Evaluation\n\n\nA regression discontinuity design evaluation using synthetic data to estimate the causal impact of WIC on infant birth‑weight outcomes.\n\n\n\n\nMedicaid Expansion & Health Coverage\n\n\nA staggered difference-in-differences analysis using the Callaway-Sant’Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states."
+    "text": "Portfolio Projects\nEach project listed below links to a dedicated page with an overview, methodology, and the full report.\n\n\n\nADA‑PARC Project\n\n\nA descriptive analysis of quality‑of‑life disparities between disabled and non‑disabled populations across U.S. geographies, paired with an interactive Shiny website and Tableau dashboard.\n\n\n\n\nMedicaid Expansion & Health Coverage\n\n\nA staggered difference-in-differences analysis using the Callaway-Sant’Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states.\n\n\n\n\nWIC Program Evaluation\n\n\nA regression discontinuity design evaluation using synthetic data to estimate the causal impact of WIC on infant birth‑weight outcomes."
   },
   {
     "objectID": "index.html",
@@ -98,11 +98,11 @@
     "text": "Researcher / Quantitative & Qualitative Policy Analyst\n\n\nBlending data and egalitarian values to analyze public problems.\n\n\nEmail Me GitHub"
   },
   {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
+    "objectID": "index.html#latest-work",
+    "href": "index.html#latest-work",
     "title": "\nColin Heeneman\n",
-    "section": "Featured Projects",
-    "text": "Featured Projects\n\n\n\nADA‑PARC Project\n\n\nAn interactive Shiny and Tableau-based platform that visualizes quality‑of‑life outcomes for people with disabilities across U.S. geographies.\n\n\n\n\nCorrelates of Mood Disorders\n\n\nUses CDC health survey data to model how modifiable behaviors and non‑modifiable demographics predict depression and anxiety among adults, revealing actionable public health targets.\n\n\n\n\nWIC Program Evaluation\n\n\nApplies a regression discontinuity design to synthetic data to estimate the impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on birth weight outcomes."
+    "section": "Latest Work",
+    "text": "Latest Work\n\n\n\nADA‑PARC Project\n\n\nAn interactive Shiny and Tableau-based platform that visualizes quality‑of‑life outcomes for people with disabilities across U.S. geographies.\n\n\n\n\nMedicaid Expansion & Health Coverage\n\n\nA staggered difference-in-differences analysis using the Callaway-Sant’Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states."
   },
   {
     "objectID": "about.html",
