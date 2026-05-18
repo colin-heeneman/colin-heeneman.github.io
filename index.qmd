@@ -27,7 +27,7 @@ Blending data and egalitarian values to analyze public problems.
 :::
 :::
 
-## Featured Projects
+## Latest Work
 
 ::: project-cards
 ::: project-card
@@ -37,14 +37,8 @@ Blending data and egalitarian values to analyze public problems.
 :::
 
 ::: project-card
-<h3><a href="projects/mood-disorders.html">Correlates of Mood Disorders</a></h3>
+<h3><a href="projects/medicaid-expansion.html">Medicaid Expansion & Health Coverage</a></h3>
 
-<p>Uses CDC health survey data to model how modifiable behaviors and non‑modifiable demographics predict depression and anxiety among adults, revealing actionable public health targets.</p>
-:::
-
-::: project-card
-<h3><a href="projects/wic.html">WIC Program Evaluation</a></h3>
-
-<p>Applies a regression discontinuity design to synthetic data to estimate the impact of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) on birth weight outcomes.</p>
+<p>A staggered difference-in-differences analysis using the Callaway-Sant'Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states.</p>
 :::
 :::

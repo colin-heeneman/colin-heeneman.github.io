@@ -19,13 +19,13 @@ ADA-PARC (Americans with Disabilities Act Participation Action Research Consorti
 ## Full Report
 
 ::: pdf-embed
-<iframe src="ada-parc-report.pdf" width="100%" height="850px">
+<iframe src="ada-parc-descriptive-2023.html" width="100%" height="950px">
 
 </iframe>
 :::
 
 <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
 
-If the PDF does not render above, <a href="ada-parc-report.pdf" target="_blank">open it directly</a>.
+If the report does not render above, <a href="ada-parc-descriptive-2023.html" target="_blank">open it directly</a>.
 
 </p>
