@@ -1,6 +1,16 @@
+# R / RStudio
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
+# Quarto build artifacts
 /.quarto/
+_site/
+
+# Quarto local preview server cache (hash-named temp dirs)
+/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
+
+# macOS
+.DS_Store
+**/.DS_Store
