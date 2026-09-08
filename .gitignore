@@ -8,9 +8,22 @@
 /.quarto/
 _site/
 
+# Quarto per-document resource dirs left behind by single-file renders
+*_files/
+
+# Work-in-progress components parked out of the site (not ready to ship)
+_wip/
+
 # Quarto local preview server cache (hash-named temp dirs)
 /[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
 
 # macOS
 .DS_Store
 **/.DS_Store
+
+# LaTeX build artifacts (from compiling files/Heeneman_Colin_CV.tex)
+files/*.aux
+files/*.log
+files/*.out
+files/cvpreview*.png
+files/cvv*.png
