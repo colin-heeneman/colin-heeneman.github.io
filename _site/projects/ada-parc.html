@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<meta name="theme-color" content="#800020">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -88,10 +92,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
@@ -103,8 +103,16 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">My Why</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://github.com/colin-heeneman"> 
 <span class="menu-text">GitHub</span></a>
@@ -130,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#the-interactive-tool" id="toc-the-interactive-tool" class="nav-link" data-scroll-target="#the-interactive-tool">The Interactive Tool</a></li>
   <li><a href="#full-report" id="toc-full-report" class="nav-link" data-scroll-target="#full-report">Full Report</a></li>
   </ul>
 </nav>
@@ -160,15 +169,36 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <p>ADA-PARC (Americans with Disabilities Act Participation Action Research Consortium) is a national research effort led by Dr.&nbsp;Joy Hammel at the University of Illinois Chicago. The project examines quality-of-life disparities between people with and without disabilities using American Community Survey (ACS 5-year) data, spanning national, regional, state, and city geographies. The analysis covers four thematic domains, Demographics, Community Living, Community Participation, and Work &amp; Economics, producing scorecards, geographic breakdowns, and index scores designed to surface where disparities are most severe and how they cluster across place and population.</p>
 <p><strong>Key Findings:</strong> Employment gaps between people with and without disabilities are universal and large, with 30–40 percentage point gaps common across states and no state approaching parity. Labor force exclusion, rather than unemployment alone, is the dominant driver, with the share of working-age adults with disabilities not in the labor force frequently exceeding 30%. Income gaps are similarly consistent, with median individual income for people with disabilities lower than for people without disabilities in every state examined, many gaps exceeding $15,000–$20,000 annually. Poverty disparities appear in every state and every age group with no reversals, with working-age PWD poverty approaching 25% in many states and exceeding 30% in others. Geographic patterning is evident throughout: outcomes are systematically worse in Southern states and better in Upper Plains and Mountain West states on employment, and in Mid-Atlantic and Western Pacific states on wealth and poverty indicators.</p>
-<p><strong>Methods:</strong> Descriptive statistics and composite index scoring using ACS 5-year estimates (2023), with an equity lens centering comparisons between people with disabilities (PWD) and people without disabilities (PWOD) across race, sex, age, and geography. Delivered through a written report, an interactive R Shiny website, and Tableau dashboards.</p>
-<p><strong>Role:</strong> Primary analyst and author of report. Responsible for overhaul of Census data pipeline construction, index development, report production, and interactive tool development in R Shiny and Tableau.</p>
+<p><strong>Methods:</strong> Descriptive statistics and composite index scoring using ACS 5-year estimates (2023), with an equity lens centering comparisons between people with disabilities (PWD) and people without disabilities (PWOD) across race, sex, age, and geography. Delivered through a written report, an interactive R Shiny website, and scorecard dashboards built natively in R and Quarto.</p>
+<p><strong>Role:</strong> Primary analyst and author of report. Responsible for overhaul of Census data pipeline construction, index development, report production, and interactive tool development in R Shiny and Quarto.</p>
+<hr>
+</section>
+<section id="the-interactive-tool" class="level2">
+<h2 class="anchored" data-anchor-id="the-interactive-tool">The Interactive Tool</h2>
+<p>The ADA‑PARC Data Tool is the project’s primary public deliverable and the part of this work I spent the most time on: a full rebuild of the consortium’s website as an interactive R Shiny application. It lets researchers, disability advocates, and self‑advocates explore the participation data directly, without opening a spreadsheet or reading the full report.</p>
+<p>The tool is organized into four data sections, plus a Help area:</p>
+<ul>
+<li><strong>National Data</strong> — interactive choropleth maps and figures for every indicator across the four domains (Demographics, Community Living, Community Participation, Work &amp; Economics). A category‑then‑topic drill‑down keeps the interface simple, each measure carries a plain‑language “About This Topic” explainer, and the data behind any topic downloads as a CSV in one click.</li>
+<li><strong>City Data</strong> — the same indicators and maps at the city and municipal level.</li>
+<li><strong>Scorecards</strong> — state‑by‑state report cards that rank and score each state within a domain, generated on demand and exportable.</li>
+<li><strong>Fact Sheets</strong> — short, plain‑language briefs on a single outcome, written for a general audience.</li>
+<li><strong>Help</strong> — a downloadable glossary of every term and data source, plus display settings.</li>
+</ul>
+<p>Accessibility was a design constraint from the start, not a later pass. The drill‑down navigation is fully keyboard‑operable; map colors carry a fixed meaning regardless of the palette chosen (darker means more opportunity, lighter means more disparity); and a Display control on every page toggles high‑contrast mode. Copy throughout is written to be read with or without a research background.</p>
+<p>My work on the tool covered the full stack: rebuilding the Census data pipeline that feeds it, designing the index and scorecard scoring, and building and deploying the application.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ada-parc-tool.png" class="tool-screenshot img-fluid figure-img" alt="Choropleth map of the United States from the ADA-PARC Data Tool, shading each state by the percentage of its population with a disability, from 10.6 percent to 22.9 percent, using a gold-to-maroon color scale."></p>
+<figcaption>One of the tool’s interactive maps, from the National Data section: the share of each state’s population reporting a disability (2020–2024 ACS 5‑year estimates). Every indicator across the four domains gets a map like this, with per‑state values on hover and a one‑click data download.</figcaption>
+</figure>
+</div>
 <p><a href="https://adaparc.shinyapps.io/ADA_PARC/#section-home" class="btn btn-primary" target="_blank">Explore the ADA‑PARC Interactive Tool →</a></p>
 <hr>
 </section>
 <section id="full-report" class="level2">
 <h2 class="anchored" data-anchor-id="full-report">Full Report</h2>
 <div class="pdf-embed">
-<iframe src="ada-parc-descriptive-2023.html" width="100%" height="950px">
+<iframe src="ada-parc-descriptive-2023.html" width="100%" height="950px" loading="lazy" title="ADA-PARC 2023 Full Descriptive Report">
 </iframe>
 </div>
 <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
