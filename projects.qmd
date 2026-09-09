@@ -1,27 +1,35 @@
 ---
 title: "Projects"
 page-layout: full
+toc: false
+description: "Research projects by Colin Heeneman on disability equity, Medicaid expansion, and WIC program evaluation."
 ---
 
 # Portfolio Projects
 
 Each project listed below links to a dedicated page with an overview, methodology, and the full report.
 
-::: project-cards
+::: {.project-cards .project-cards-stacked}
 ::: project-card
-<h3><a href="projects/ada-parc.html">ADA‑PARC Project</a></h3>
+<span class="project-tag">GIS &amp; Dashboards</span>
 
-<p>A descriptive analysis of quality‑of‑life disparities between disabled and non‑disabled populations across U.S. geographies, paired with an interactive Shiny website and Tableau dashboard.</p>
+<h2><a href="projects/ada-parc.html">ADA‑PARC Project</a></h2>
+
+<p>A descriptive analysis of quality‑of‑life disparities between disabled and non‑disabled populations across U.S. geographies, paired with an interactive Shiny website and scorecard dashboards built natively in R and Quarto.</p>
 :::
 
 ::: project-card
-<h3><a href="projects/medicaid-expansion.html">Medicaid Expansion & Health Coverage</a></h3>
+<span class="project-tag">Staggered DiD</span>
+
+<h2><a href="projects/medicaid-expansion.html">Medicaid Expansion & Health Coverage</a></h2>
 
 <p>A staggered difference-in-differences analysis using the Callaway-Sant'Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states.</p>
 :::
 
 ::: project-card
-<h3><a href="projects/wic.html">WIC Program Evaluation</a></h3>
+<span class="project-tag">RD Design</span>
+
+<h2><a href="projects/wic.html">WIC Program Evaluation</a></h2>
 
 <p>A regression discontinuity design evaluation using synthetic data to estimate the causal impact of WIC on infant birth‑weight outcomes.</p>
 :::

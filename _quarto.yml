@@ -6,28 +6,32 @@ project:
     - about.qmd
     - projects.qmd
     - cv.qmd
+    - contact.qmd
     - projects/ada-parc.qmd
-    - projects/mood-disorders.qmd
     - projects/wic.qmd
     - projects/medicaid-expansion.qmd
     - research-statement.qmd
 
 website:
   title: "Colin Heeneman"
+  site-url: "https://colin-heeneman.github.io"
+  favicon: favicon.ico
   navbar:
     title: false
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: projects.qmd
         text: Projects
       - href: research-statement.qmd
         text: Research
       - href: cv.qmd
         text: CV
+      - href: contact.qmd
+        text: Contact
     right:
+      - href: about.qmd
+        text: My Why
       - href: https://github.com/colin-heeneman
         text: GitHub
       - href: mailto:colinheen@outlook.com
@@ -38,5 +42,10 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+          <meta name="theme-color" content="#800020">
 
 editor: visual

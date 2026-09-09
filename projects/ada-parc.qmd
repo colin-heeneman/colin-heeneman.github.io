@@ -8,9 +8,29 @@ ADA-PARC (Americans with Disabilities Act Participation Action Research Consorti
 
 **Key Findings:** Employment gaps between people with and without disabilities are universal and large, with 30--40 percentage point gaps common across states and no state approaching parity. Labor force exclusion, rather than unemployment alone, is the dominant driver, with the share of working-age adults with disabilities not in the labor force frequently exceeding 30%. Income gaps are similarly consistent, with median individual income for people with disabilities lower than for people without disabilities in every state examined, many gaps exceeding \$15,000--\$20,000 annually. Poverty disparities appear in every state and every age group with no reversals, with working-age PWD poverty approaching 25% in many states and exceeding 30% in others. Geographic patterning is evident throughout: outcomes are systematically worse in Southern states and better in Upper Plains and Mountain West states on employment, and in Mid-Atlantic and Western Pacific states on wealth and poverty indicators.
 
-**Methods:** Descriptive statistics and composite index scoring using ACS 5-year estimates (2023), with an equity lens centering comparisons between people with disabilities (PWD) and people without disabilities (PWOD) across race, sex, age, and geography. Delivered through a written report, an interactive R Shiny website, and Tableau dashboards.
+**Methods:** Descriptive statistics and composite index scoring using ACS 5-year estimates (2023), with an equity lens centering comparisons between people with disabilities (PWD) and people without disabilities (PWOD) across race, sex, age, and geography. Delivered through a written report, an interactive R Shiny website, and scorecard dashboards built natively in R and Quarto.
 
-**Role:** Primary analyst and author of report. Responsible for overhaul of Census data pipeline construction, index development, report production, and interactive tool development in R Shiny and Tableau.
+**Role:** Primary analyst and author of report. Responsible for overhaul of Census data pipeline construction, index development, report production, and interactive tool development in R Shiny and Quarto.
+
+------------------------------------------------------------------------
+
+## The Interactive Tool
+
+The ADA‑PARC Data Tool is the project's primary public deliverable and the part of this work I spent the most time on: a full rebuild of the consortium's website as an interactive R Shiny application. It lets researchers, disability advocates, and self‑advocates explore the participation data directly, without opening a spreadsheet or reading the full report.
+
+The tool is organized into four data sections, plus a Help area:
+
+-   **National Data** --- interactive choropleth maps and figures for every indicator across the four domains (Demographics, Community Living, Community Participation, Work & Economics). A category‑then‑topic drill‑down keeps the interface simple, each measure carries a plain‑language "About This Topic" explainer, and the data behind any topic downloads as a CSV in one click.
+-   **City Data** --- the same indicators and maps at the city and municipal level.
+-   **Scorecards** --- state‑by‑state report cards that rank and score each state within a domain, generated on demand and exportable.
+-   **Fact Sheets** --- short, plain‑language briefs on a single outcome, written for a general audience.
+-   **Help** --- a downloadable glossary of every term and data source, plus display settings.
+
+Accessibility was a design constraint from the start, not a later pass. The drill‑down navigation is fully keyboard‑operable; map colors carry a fixed meaning regardless of the palette chosen (darker means more opportunity, lighter means more disparity); and a Display control on every page toggles high‑contrast mode. Copy throughout is written to be read with or without a research background.
+
+My work on the tool covered the full stack: rebuilding the Census data pipeline that feeds it, designing the index and scorecard scoring, and building and deploying the application.
+
+![One of the tool's interactive maps, from the National Data section: the share of each state's population reporting a disability (2020--2024 ACS 5‑year estimates). Every indicator across the four domains gets a map like this, with per‑state values on hover and a one‑click data download.](ada-parc-tool.png){.tool-screenshot fig-alt="Choropleth map of the United States from the ADA-PARC Data Tool, shading each state by the percentage of its population with a disability, from 10.6 percent to 22.9 percent, using a gold-to-maroon color scale."}
 
 [Explore the ADA‑PARC Interactive Tool →](https://adaparc.shinyapps.io/ADA_PARC/#section-home){.btn .btn-primary target="_blank"}
 
@@ -19,7 +39,7 @@ ADA-PARC (Americans with Disabilities Act Participation Action Research Consorti
 ## Full Report
 
 ::: pdf-embed
-<iframe src="ada-parc-descriptive-2023.html" width="100%" height="950px">
+<iframe src="ada-parc-descriptive-2023.html" width="100%" height="950px" loading="lazy" title="ADA-PARC 2023 Full Descriptive Report">
 
 </iframe>
 :::

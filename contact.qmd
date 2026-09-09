@@ -1,0 +1,46 @@
+---
+title: "Contact"
+toc: false
+description: "Contact Colin Heeneman, a Chicago-based policy researcher open to research analyst and program evaluation roles."
+---
+
+::: {.contact-page-header}
+<h1 class="contact-heading">Open to Work</h1>
+<p class="contact-subheading">Research analyst and policy professional based in Chicago.</p>
+:::
+
+::: {.contact-grid}
+::: {.contact-panel}
+## Roles I am targeting
+
+Research Analyst, Policy Analyst, Program Evaluator, or Data Analyst at a government agency, nonprofit, think tank, academic research center, or philanthropic foundation.
+
+Domains of particular interest: health policy, disability rights, economic security, housing, and adjacent social policy areas.
+:::
+
+::: {.contact-panel}
+## Logistics
+
+::: {.contact-detail-row}
+[Location]{.contact-label} Chicago, IL (in-person or hybrid) or remote
+:::
+::: {.contact-detail-row}
+[Availability]{.contact-label} Immediate
+:::
+::: {.contact-detail-row}
+[Authorization]{.contact-label} U.S. citizen, no sponsorship required
+:::
+:::
+:::
+
+::: {.contact-intro}
+If your team needs someone who can take a project from raw data through a published, reproducible analysis, I would welcome a conversation.
+:::
+
+---
+
+::: {.contact-cta}
+[Email Me](mailto:colinheen@outlook.com){.btn .btn-primary}
+[View CV](cv.html){.btn .btn-secondary}
+[GitHub](https://github.com/colin-heeneman){.btn .btn-gold}
+:::

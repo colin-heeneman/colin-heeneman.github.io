@@ -1,0 +1,170 @@
+% ============================================================
+% Heeneman_Colin_CV.tex
+%
+% Source for the one-page downloadable CV PDF
+% (files/Heeneman_Colin_CV.pdf), linked from the "Download PDF"
+% button on cv.qmd. Content mirrors cv.qmd (Education, Work
+% Experience, Selected Projects & Research, Research Methods,
+% Skills, Technical Skills, Additional); project descriptions
+% are condensed slightly for one-page print format.
+%
+% Regenerate after editing cv.qmd with:
+%   cd "Portfolio Colin Jonathan Heeneman"
+%   xelatex -interaction=nonstopmode -output-directory=files \
+%     files/Heeneman_Colin_CV.tex
+%
+% Design canon: EB Garamond, maroon (#800020) / gold (#B8880A),
+% clean / modern / professional, one page, high-contrast.
+% Last updated: 2026-06-15
+% ============================================================
+
+\documentclass[9pt]{extarticle}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fontspec}
+\setmainfont{EBGaramond}[
+  Path = EB_Garamond/static/,
+  Extension = .ttf,
+  UprightFont = *-Regular,
+  BoldFont = *-Bold,
+  ItalicFont = *-Italic,
+  BoldItalicFont = *-BoldItalic
+]
+
+\usepackage{xcolor}
+\definecolor{cvmaroon}{HTML}{800020}
+\definecolor{cvgold}{HTML}{B8880A}
+\definecolor{cvtext}{HTML}{1A1A1A}
+\definecolor{cvmid}{HTML}{4A4A4A}
+
+\usepackage[colorlinks=true, linkcolor=cvmaroon, urlcolor=cvmaroon]{hyperref}
+
+\usepackage{enumitem}
+\setlist[itemize,1]{nosep, topsep=0.5pt, itemsep=1pt, leftmargin=1.15em, label=\textbullet}
+\setlist[itemize,2]{nosep, topsep=0.5pt, itemsep=0.5pt, leftmargin=1.1em, label=\textendash}
+
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{ragged2e}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section heading: bold maroon caps with a gold rule beneath
+\titleformat{\section}
+  {\fontsize{10}{11}\selectfont\bfseries\color{cvmaroon}}
+  {}{0pt}
+  {\MakeUppercase}
+  [{\color{cvgold}\titlerule[1.1pt]}]
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+% Entry row: bold left, plain (mid-gray) right, full width
+\newcommand{\cvrow}[2]{\noindent{\bfseries #1}\hfill{\color{cvmid}#2}\\[0pt]}
+% Title-only row (no right-hand date), e.g. project links
+\newcommand{\cvtitle}[1]{\noindent{\bfseries #1}\\[0pt]}
+% Role row: italic left, plain (mid-gray) right
+\newcommand{\cvrole}[2]{\noindent{\itshape #1}\hfill{\color{cvmid}#2}\\[1pt]}
+% Detail paragraph, slightly smaller, mid-gray
+\newcommand{\cvdetail}[1]{{\fontsize{8.5}{10.5}\selectfont\color{cvmid}#1}\par\vspace{2pt}}
+
+\begin{document}
+\color{cvtext}
+
+% ---------- Header ----------
+\begin{center}
+  {\fontsize{18}{20}\selectfont\bfseries\color{cvmaroon} Colin Heeneman}\\[2pt]
+  {\fontsize{8.5}{10}\selectfont Chicago, IL ~|~ +1 630 699 6257 ~|~ colinheen@outlook.com}\\[1pt]
+  {\fontsize{8.5}{10}\selectfont \textbf{Portfolio:} \href{https://colin-heeneman.github.io}{colin-heeneman.github.io}}
+\end{center}
+
+% ---------- Education ----------
+\section*{Education}
+
+\cvrow{University of Illinois Chicago}{Chicago, IL}
+\cvrole{Master of Public Policy}{Dec 2022 -- Dec 2024}
+\cvdetail{Specialization in Public Health Policy \textperiodcentered\ GPA: 3.93/4.0\\
+\textit{Relevant Coursework:} Data Analysis, Policy Analysis, Program Design and Evaluation, Public Administration}
+
+\cvrow{University of Illinois Urbana-Champaign}{Urbana, IL}
+\cvrole{Bachelor of Political Science}{Aug 2018 -- May 2022}
+\cvdetail{Concentration in Public Policy and Democratic Institutions \textperiodcentered\ GPA: 3.6/4.0\\
+\textit{Relevant Coursework:} Intro to Public Policy, Political Theory, Public Policy Development}
+
+% ---------- Work Experience ----------
+\section*{Work Experience}
+
+\cvrow{Nathalie P. Voorhees Center for Neighborhood and Community Improvement}{Chicago, IL}
+\cvrole{Research Assistant}{June 2023 -- Present}
+\begin{itemize}
+  \item Support the ADA-PARC project, a national research effort examining quality-of-life disparities for the disabled population across all 50 states and hundreds of geographic units.
+  \begin{itemize}
+    \item Built scorecard dashboards natively in R and Quarto to visualize outcome disparities between disabled and non-disabled populations nationwide.
+    \item Built interactive website for geographic data display using R Shiny.
+    \item Developed a Descriptive Analysis Report based on 2023 ACS 5-year estimate outcomes.
+  \end{itemize}
+  \item Support the City of Chicago 2025 Point-in-Time (PIT) Count, a federally mandated, citywide survey identifying 7,452 people experiencing homelessness, co-led by the Voorhees Center and DFSS.
+  \begin{itemize}
+    \item Contributed to data cleaning, analysis, and production of visualizations for the published 2025 PIT Count \& Survey Report.
+  \end{itemize}
+\end{itemize}
+
+\cvrow{Jefferson Educational Society}{Erie, PA}
+\cvrole{Research Intern}{May 2022 -- November 2022}
+\begin{itemize}
+  \item Produced and edited publications while assisting with research projects and programming for Erie\textquoteright s local political think tank.
+  \begin{itemize}
+    \item Published research analysis on Human Rights in Qatar.
+    \item Assisted the Jefferson team in facilitating the nationally recognized Global Summit.
+  \end{itemize}
+\end{itemize}
+
+% ---------- Selected Projects & Research ----------
+\section*{Selected Projects \& Research}
+
+\cvtitle{\href{https://colin-heeneman.github.io/projects/medicaid-expansion.html}{Medicaid Expansion \& Health Insurance Coverage}}
+\cvdetail{Staggered difference-in-differences (Callaway-Sant\textquoteright Anna) analysis of ACA Medicaid expansion using ACS and BRFSS panel data (2010\,--\,2019). Found a 2.3 percentage point reduction in the uninsured rate among non-elderly adults (95\% CI: $-3.5$ to $-1.1$ pp), with a 5.1 pp reduction among adults below 200\% FPL. Includes an accompanying policy brief for state-level decision-makers.}
+
+\cvtitle{\href{https://colin-heeneman.github.io/projects/ada-parc.html}{ADA-PARC Project}}
+\cvdetail{Descriptive and index-based analysis of quality-of-life disparities between disabled and non-disabled populations using 2023 ACS 5-year data across all 50 states and hundreds of geographies. Delivered via written report, an R Shiny application, and scorecard dashboards built natively in R and Quarto.}
+
+\cvtitle{\href{https://colin-heeneman.github.io/projects/wic.html}{WIC Program Evaluation}}
+\cvdetail{Regression discontinuity design estimating the effect of WIC income-eligibility (185\% FPL) on infant birth weight, using synthetic data to demonstrate the evaluation framework under realistic data constraints. With Emily Frost and Samantha Sepulveda, UIC PA 528.}
+
+% ---------- Research Methods ----------
+\section*{Research Methods}
+
+\begin{multicols}{2}
+\begin{itemize}
+  \item Staggered Difference-in-Differences (Callaway-Sant\textquoteright Anna)
+  \item Regression Discontinuity Design
+  \item Multivariate Regression \& Fixed Effects
+  \item Survey-Weighted Estimation
+  \item Descriptive \& Index-Based Analysis
+  \item Program Logic Models \& Evaluation Design
+\end{itemize}
+\end{multicols}
+
+% ---------- Skills ----------
+\section*{Skills}
+
+\begin{multicols}{2}
+\begin{itemize}
+  \item Policy Analysis \& Memo Writing
+  \item Program Evaluation
+  \item Written \& Verbal Communication
+  \item Stakeholder Engagement
+\end{itemize}
+\end{multicols}
+
+% ---------- Technical Skills ----------
+\section*{Technical Skills}
+
+\cvdetail{\textbf{Reproducible Research Pipeline:} R, Quarto, renv, and Git/GitHub for version-controlled, dependency-locked analysis from raw data through published report.}
+\cvdetail{\textbf{Additional Software:} R Shiny, LaTeX, Notion, Obsidian, Adobe Acrobat, Microsoft 365, Apple Ecosystem}
+
+% ---------- Additional ----------
+\section*{Additional}
+
+\cvdetail{\textbf{President of Active Minds UIUC (2021\,--\,2022):} Led student advocacy organization for mental health awareness; lobbied the counseling center to expand resources for students, succeeding in printing the suicide prevention hotline on all student I.D. cards.}
+
+\end{document}

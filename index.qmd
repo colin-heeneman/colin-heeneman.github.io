@@ -1,6 +1,8 @@
 ---
 pagetitle: "Colin Heeneman"
 page-layout: full
+toc: false
+description: "Portfolio of Colin Heeneman, a Chicago-based public policy researcher specializing in causal inference and program evaluation."
 ---
 
 ::: hero
@@ -12,33 +14,39 @@ Colin Heeneman
 
 <p class="hero-title">
 
-**Researcher / Quantitative & Qualitative Policy Analyst**
+**Researcher & Policy Analyst**
 
 </p>
 
 <p class="hero-tagline">
 
-Blending data and egalitarian values to analyze public problems.
+Meeting public problems with compassion and analytical rigor.
 
 </p>
 
 ::: quick-links
-[Email Me](mailto:colinheen@outlook.com){.btn .btn-primary} [GitHub](https://github.com/colin-heeneman){.btn .btn-secondary}
+[View Projects](projects.html){.btn .btn-gold} [Email Me](mailto:colinheen@outlook.com){.btn .btn-primary} [GitHub](https://github.com/colin-heeneman){.btn .btn-secondary}
 :::
 :::
 
-## Latest Work
+<h2 class="visually-hidden">Focus Areas</h2>
 
-::: project-cards
-::: project-card
-<h3><a href="projects/ada-parc.html">ADA‑PARC Project</a></h3>
+::: focus-strip
+::: focus-item
+<i class="bi bi-graph-up-arrow" aria-hidden="true"></i>
 
-<p>An interactive Shiny and Tableau-based platform that visualizes quality‑of‑life outcomes for people with disabilities across U.S. geographies.</p>
+### Causal & Quantitative Analysis
 :::
 
-::: project-card
-<h3><a href="projects/medicaid-expansion.html">Medicaid Expansion & Health Coverage</a></h3>
+::: focus-item
+<i class="bi bi-clipboard-check" aria-hidden="true"></i>
 
-<p>A staggered difference-in-differences analysis using the Callaway-Sant'Anna estimator to estimate the causal effect of ACA Medicaid expansion on uninsured rates and cost-related care avoidance across U.S. states.</p>
+### Policy Design & Program Evaluation
+:::
+
+::: focus-item
+<i class="bi bi-map" aria-hidden="true"></i>
+
+### Written Reports & Data Visualization
 :::
 :::

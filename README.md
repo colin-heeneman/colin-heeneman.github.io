@@ -9,7 +9,7 @@ A Quarto-based research portfolio presenting quantitative policy analysis projec
 ## Projects
 
 ### ADA-PARC Project
-Descriptive analysis of quality-of-life disparities between people with and without disabilities across U.S. geographies. Uses American Community Survey (ACS 5-year) data across four thematic domains: Demographics, Community Living, Community Participation, and Work and Economics. Paired with an interactive Shiny application and Tableau dashboard.
+Descriptive analysis of quality-of-life disparities between people with and without disabilities across U.S. geographies. Uses American Community Survey (ACS 5-year) data across four thematic domains: Demographics, Community Living, Community Participation, and Work and Economics. Paired with an interactive Shiny application and scorecard dashboards built natively in R and Quarto.
 
 **Source:** `projects/ada-parc.qmd`
 

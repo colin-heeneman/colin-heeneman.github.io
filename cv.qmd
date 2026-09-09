@@ -1,5 +1,6 @@
 ---
 title: "CV"
+description: "CV of Colin Heeneman, a public policy researcher and data analyst based in Chicago."
 ---
 
 ```{=html}
@@ -15,9 +16,15 @@ title: "CV"
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--gold);
     padding-bottom: 0.3rem;
     margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  /* This heading already has its own gold border-bottom; suppress
+     the site-wide h2::after gold bar so it doesn't double up. */
+  .cv-section h2::after {
+    display: none;
   }
   .cv-entry {
     display: flex;
@@ -113,7 +120,7 @@ title: "CV"
 [Dec 2022 – Dec 2024]{.cv-date}
 :::
 ::: {.cv-detail}
-Specialization in Public Health Policy · GPA: 3.93/4.0
+Specialization in Public Health Policy · GPA: 3.93/4.0\
 *Relevant Coursework:* Data Analysis, Policy Analysis, Program Design and Evaluation, Public Administration
 :::
 
@@ -126,7 +133,7 @@ Specialization in Public Health Policy · GPA: 3.93/4.0
 [Aug 2018 – May 2022]{.cv-date}
 :::
 ::: {.cv-detail}
-Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0
+Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0\
 *Relevant Coursework:* Intro to Public Policy, Political Theory, Public Policy Development
 :::
 :::
@@ -146,7 +153,7 @@ Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0
 <ul class="cv-bullets">
   <li>Support the ADA-PARC project — a national research effort examining quality-of-life disparities for the disabled population across all 50 states and hundreds of geographic units.
     <ul class="cv-sub">
-      <li>Produced Tableau dashboard to visualize outcome disparities between disabled and non-disabled populations nationwide.</li>
+      <li>Built scorecard dashboards natively in R and Quarto to visualize outcome disparities between disabled and non-disabled populations nationwide.</li>
       <li>Built interactive website for geographic data display using R Shiny.</li>
       <li>Developed a Descriptive Analysis Report based on 2023 ACS 5-year estimate outcomes.</li>
     </ul>
@@ -170,7 +177,7 @@ Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0
 <ul class="cv-bullets">
   <li>Produced and edited publications while assisting with research projects and programming for Erie's local political think tank.
     <ul class="cv-sub">
-      <li>Published research analysis on Human Rights in Qatar — <a href="https://jeserie.org/uploads/Henneman 2022.pdf" target="_blank">jeserie.org/uploads/Henneman 2022.pdf</a></li>
+      <li>Published research analysis on Human Rights in Qatar — <a href="https://jeserie.org/uploads/Henneman 2022.pdf" target="_blank">read the report (PDF)</a></li>
       <li>Assisted the Jefferson team in facilitating the nationally recognized Global Summit.</li>
     </ul>
   </li>
@@ -178,13 +185,58 @@ Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0
 :::
 
 ::: {.cv-section}
+## Selected Projects & Research
+
+::: {.cv-entry}
+<span class="cv-left"><a href="projects/medicaid-expansion.html">Medicaid Expansion &amp; Health Insurance Coverage</a></span>
+:::
+::: {.cv-detail}
+Staggered difference-in-differences (Callaway-Sant'Anna estimator) analysis of ACA Medicaid expansion using ACS (2010-2019) and BRFSS (2011-2019) panel data. Found a 2.3 percentage point reduction in the uninsured rate among non-elderly adults (95% CI: −3.5 to −1.1 pp), with a 5.1 pp reduction among adults below 200% FPL. Includes an accompanying policy brief written for state-level decision-makers.
+:::
+
+::: {.cv-entry}
+<span class="cv-left"><a href="projects/ada-parc.html">ADA-PARC Project</a></span>
+:::
+::: {.cv-detail}
+Descriptive and index-based analysis of quality-of-life disparities between disabled and non-disabled populations using 2023 ACS 5-year data across all 50 states and hundreds of geographies. Delivered via written report, an R Shiny application, and scorecard dashboards built natively in R and Quarto.
+:::
+
+::: {.cv-entry}
+<span class="cv-left"><a href="projects/wic.html">WIC Program Evaluation</a></span>
+:::
+::: {.cv-detail}
+Regression discontinuity design estimating the effect of WIC income-eligibility (185% FPL) on infant birth weight, using synthetic data to demonstrate the evaluation framework under realistic data constraints. With Emily Frost and Samantha Sepulveda, UIC PA 528.
+:::
+:::
+
+::: {.cv-section}
+## Research Methods
+
+::: {.cv-skills-grid}
+<span>Staggered Difference-in-Differences (Callaway-Sant'Anna)</span>
+
+<span>Regression Discontinuity Design</span>
+
+<span>Multivariate Regression &amp; Fixed Effects</span>
+
+<span>Survey-Weighted Estimation</span>
+
+<span>Descriptive &amp; Index-Based Analysis</span>
+
+<span>Program Logic Models &amp; Evaluation Design</span>
+:::
+:::
+
+::: {.cv-section}
 ## Skills
 
 ::: {.cv-skills-grid}
-<span>Policy Analysis: Memo Writing, Evaluation</span>
-<span>Quantitative & Qualitative Research Methods</span>
-<span>Econometrics</span>
-<span>Written & Verbal Communications</span>
+<span>Policy Analysis &amp; Memo Writing</span>
+
+<span>Program Evaluation</span>
+
+<span>Written &amp; Verbal Communication</span>
+
 <span>Stakeholder Engagement</span>
 :::
 :::
@@ -193,7 +245,11 @@ Concentration in Public Policy and Democratic Institutions · GPA: 3.6/4.0
 ## Technical Skills
 
 ::: {.cv-detail}
-**Software Proficiency:** R Studio, Quarto, LaTeX, Tableau, R Shiny, Git, Notion, Obsidian, Adobe Acrobat, Microsoft 365, Apple Ecosystem
+**Reproducible Research Pipeline:** R, Quarto, renv, and Git/GitHub for version-controlled, dependency-locked analysis from raw data through published report.
+:::
+
+::: {.cv-detail}
+**Additional Software:** R Shiny, LaTeX, Notion, Obsidian, Adobe Acrobat, Microsoft 365, Apple Ecosystem
 :::
 :::
 
