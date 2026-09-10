@@ -220,8 +220,10 @@ a:hover {
 }
 
 .project-card {
-  flex: 1 1 calc(33% - 1.25rem);
+  flex: 1 1 calc(33.333% - 1.25rem);
   max-width: 360px;
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   border: 1px solid var(--border);
   border-left: 4px solid var(--primary);
@@ -283,37 +285,80 @@ a:hover {
   }
 }
 
-/* ── Stacked project cards (Projects page) ──────────────── */
-.project-cards-stacked {
-  flex-direction: column;
+/* ── Row project cards (Projects page) ──────────────────── */
+/* One row, three equal columns — all three visible without
+   scrolling. Card body text is a touch smaller than the site
+   default so the copy fits comfortably in each column. */
+.project-cards-row {
+  flex-wrap: nowrap;
   align-items: stretch;
-  gap: 1.75rem;
+  gap: 1.5rem;
   margin-top: 2.5rem;
 }
 
-.project-cards-stacked .project-card {
-  flex: 1 1 auto;
-  max-width: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 180px;
-  padding: 2rem 2.25rem;
+.project-cards-row .project-card {
+  flex: 1 1 0;
+  max-width: 22rem;
+  /* Taller cards so the row carries the page instead of leaving a
+     band of dead space beneath it. The oversized title and the
+     chip pinned to the card floor take up the added height. */
+  min-height: 24rem;
+  padding: 1.75rem 1.7rem;
 }
 
-.project-cards-stacked .project-card h2 {
-  font-size: 1.3rem;
+.project-cards-row .project-tag {
+  font-size: 0.7rem;
 }
 
-.project-cards-stacked .project-card p {
-  font-size: 1.05rem;
-  max-width: 70ch;
+/* Oversized project title — the main element filling the taller card.
+   min-height reserves two lines for every title so the prose below
+   starts at the same height across all three cards, whether a title
+   wraps or not. */
+.project-cards-row .project-card h2 {
+  font-size: 1.95rem;
+  line-height: 1.18;
+  margin-bottom: 0.8rem;
+  min-height: 2.36em;
 }
 
-@media (max-width: 768px) {
-  .project-cards-stacked .project-card {
+.project-cards-row .project-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Chip now sits below the prose. Pandoc wraps the bare <span> in a
+   <p>; auto top margin on that <p> pushes the chip to the bottom of
+   the card, and the padding keeps a gap above it when space is tight. */
+.project-cards-row .project-card p:has(.project-tag) {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+}
+
+.project-cards-row .project-card .project-tag {
+  margin: 0;
+}
+
+@media (max-width: 840px) {
+  .project-cards-row {
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+  .project-cards-row .project-card {
+    flex: 1 1 100%;
+    max-width: 100%;
     min-height: 0;
     padding: 1.5rem 1.5rem;
+  }
+  .project-cards-row .project-card h2 {
+    font-size: 1.65rem;
+    min-height: 0;
+  }
+  .project-cards-row .project-card p {
+    font-size: 1rem;
+  }
+  .project-cards-row .project-card p:has(.project-tag) {
+    padding-top: 1.15rem;
   }
 }
 
