@@ -13,6 +13,8 @@
   --primary-light:  #f5e8eb;
   --gold:           #b8880a;   /* gold accent */
   --gold-light:     #fdf6e3;
+  --linkedin:       #0a66c2;   /* LinkedIn brand blue */
+  --linkedin-dark:  #004182;
   --text-dark:      #1a1a1a;
   --text-mid:       #4a4a4a;
   --text-light:     #888888;
@@ -207,6 +209,20 @@ a:hover {
   border-color: #9a7108 !important;
   color: #ffffff !important;
   box-shadow: 0 4px 12px rgba(184, 136, 10, 0.35);
+  text-decoration: none;
+}
+
+.btn-linkedin {
+  background-color: var(--linkedin) !important;
+  border-color: var(--linkedin) !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(10, 102, 194, 0.25);
+}
+.btn-linkedin:hover {
+  background-color: var(--linkedin-dark) !important;
+  border-color: var(--linkedin-dark) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(10, 102, 194, 0.35);
   text-decoration: none;
 }
 
